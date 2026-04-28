@@ -1,0 +1,388 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>     
+<meta charset="UTF-8">     
+<meta name="viewport" content="width=device-width, initial-scale=1.0">     
+<title>Document</title>     
+
+      <style> 
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+.carousel-indicators .active {
+    background-color: red;
+}
+
+</style>
+<style>
+.popular-section{
+    background-color: #f8f9fa; /* light grey */
+    padding: 40px 0;
+}
+</style>
+<style>
+.gallery-img {
+  width: 100%;
+  height: 220px;     /* fixed height */
+  object-fit: cover; /* crop correct ga */
+  border-radius: 5px;
+}
+</style>
+
+      <link rel="stylesheet" href="bootstrap.css">
+          <link rel="stylesheet" href="mdb.css">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+
+    <!-- LEFT LOGO -->
+    <a class="navbar-brand" href="#">
+      <i class="bi bi-airplane-engines-fill mr-2"></i> Travalyari
+    </a>
+
+    <!-- TOGGLE BUTTON -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- MENU -->
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ml-auto">
+
+        <li class="nav-item">
+          <a class="nav-link text-white"  href="#">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Search</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Visiting Spots</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Gallery</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Contact Us</a>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+  </div>
+</nav>
+
+                    
+               <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
+ 
+                 <div class="carousel-indicators">
+               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+</div>
+
+                     <div class="carousel-inner">
+
+                       <div class="carousel-item active">
+                      <img src="slider_three.jpg" class="d-block w-100">
+                       <div class="carousel-caption">
+                             <h1>Feel Of Life</h1>
+                             <p>Enjoy Every moment</p>
+                    <button class="btn btn-danger">Read More</button>
+          </div>
+</div>
+
+                       <div class="carousel-item">
+                      <img src="slider_one.jpg" class="d-block w-100">
+                       <div class="carousel-caption">
+                           <h1>Enjoy the Tourism</h1>
+                          <p>Enjoy Every moment</p>
+                  <button class="btn btn-danger">Read More</button>
+      </div>
+       </div>
+
+                             <div class="carousel-item">
+                     <img src="slider_two.jpg" class="d-block w-100">
+                             <div class="carousel-caption">
+                           <h1>ENJOY THE ALL MOOMENTS</h1>
+                          <p class="h4">Enjoy Every moment</p>
+             <button class="btn btn-danger">Read More</button>
+               </div>
+</div>
+
+</div>
+</div>
+                <div class="bg-white text-dark">
+                   <div class="container p-3">
+                  <div class="row">
+                    <div class="col">
+                      <h5>Search your destination</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio cupiditate nemo blanditiis aspernatur! Inventore, maxime vel? Laudantium, a numquam! Quas eius tenetur sit quidem laudantium autem magni neque eum quod cumque a provident hic incidunt rerum repellendus non mollitia, atque quo, beatae architecto praesentium? Libero odio quasi sapiente, velit unde illum quidem commodi saepe fuga sit voluptates dolore quos neque quaerat? Corporis commodi nulla quia alias fugit voluptates minus ipsum aperiam, eaque ducimus. Iure ipsam, sapiente doloremque blanditiis totam atque, voluptatum est labore reiciendis tempore tenetur saepe error corrupti voluptas autem numquam ea temporibus ratione, porro maiores quibusdam nihil. Cupiditate.</p>
+                    <div>
+                      <form>
+                        <div>
+                          <input type="text" class="form-control" placeholder="pairs">
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container mt-4">
+  <div class="row text-center">
+
+    <div class="col-md-4">
+      <div class="card shadow p-3">
+        <i class="bi bi-send-arrow-down-fill" style="font-size:30px;color:black"></i>
+       <h4 class="text-primary">Pick Location</h4> 
+        <p class="text-dark">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, iste ab praesentium dolor quod suscipit aliquam sapiente quaerat earum accusantium!.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow p-3">
+     <i class="bi bi-geo-alt-fill" style="font-size:30px; color:red;"></i>
+       <h4 class="text-primary">Pick Location</h4> 
+        <p class="text-dark">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, libero reiciendis esse minus illum suscipit aliquid magnam tempora exercitationem corporis.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow p-3">
+        <i class="bi bi-pin-map" style="font-size:32px; color:black"></i> 
+        <h4 class="text-primary">Pick Location</h4>
+        <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium pariatur iure, voluptatem ducimus harum laborum rerum doloribus voluptate praesentium veniam..</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+<section>
+  <div class="row text-center">
+    <div class="col">
+   
+  <div class="container text-center bg-pink p-4">
+    <div class="bg-primary text-white"></div>
+    <h1>
+      <span class="text-pink">Popular</span>
+      <span class="text-dark">Places</span>
+    </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsum libero corporis illum, quam magnam quidem vero voluptate minus a quisquam, rem quis, beatae quasi maiores perferendis quaerat dolorum ut ea optio. Incidunt explicabo illo quibusdam ipsa, sunt ratione dolores laborum fugiat commodi quisquam placeat iusto iure eos fugit nemo.</p>
+</style>
+  </div>
+  <div class="container"></div>
+        
+      <div class="row">
+
+  <div class="col-md-4">
+    <div class="card">
+      <img src="card_1.jpg" class="card-img-top">
+      <h3 class="text-primary">munnar,kerala</h3>
+      <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci natus optio culpa nesciunt eius laborum esse, est vero suscipit dignissimos cumque harum doloribus ut nemo laudantium non qui quis quisquam.</p>
+      <button class="btn btn-primary">Read More</button>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card">
+      <img src="card_2.jpg" class="card-img-top">
+      <h3 class="text-primary">Alpuzer,kerala</h3>
+       <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci natus optio culpa nesciunt eius laborum esse, est vero suscipit dignissimos cumque harum doloribus ut nemo laudantium non qui quis quisquam.</p>
+      <button class="btn btn-primary">Read More</button>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card">
+      <img src="card_3.jpg" class="card-img-top">
+      <h3 class="text-primary">podicherry</h3>
+       <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci natus optio culpa nesciunt eius laborum esse, est vero suscipit dignissimos cumque harum doloribus ut nemo laudantium non qui quis quisquam.</p>
+      <button class="btn btn-primary">Read More</button>
+    </button>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div class="d-flex justify-content-center mt-4">
+    <button class="btn btn-dark btn-lg">
+        <i class="bi bi-play-fill"></i> START BOOKING
+    </button>
+</div>
+<section class="bg-warning text-center padding-3">
+  <div>
+    <div>
+      <h1 class="text-dark">Follow Traval yari</h1>
+      <p   class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere debitis veniam, ipsum qui deleniti iure ducimus blanditiis dolorum id eligendi. Esse, culpa. Optio magni laudantium itaque assumenda maiores adipisci eligendi rerum exercitationem dolore at quaerat voluptates explicabo fugiat tempora, dignissimos, non mollitia impedit voluptatem eaque possimus error tenetur facilis? Minus!</p>
+    </div>
+    <div class="text-center mt-3">
+<i class="bi bi-facebook mx-3" style="font-size:30px; color:black;"></i>
+ <i class="bi bi-twitter mx-3" style="font-size:30px; color:black;"></i>
+    <i class="bi bi-youtube mx-3" style="font-size:30px; color:black;"></i>
+    <i class="bi bi-google mx-3" style="font-size:30px; color:black;"></i>
+
+</div>
+  </div>
+</section>
+  <div class="container">
+
+    <div class="text-center">
+      <h5 class="display-4">
+        <span class="text-primary">Photo</span> Gallery
+      </h5>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+
+    <div class="row mt-4">
+
+      <div class="col-md-3">
+        <img src="gallery_1.jpg" class="img-fluid">
+      </div>
+
+      <div class="col-md-3">
+        <img src="gallery_2.jpg" class="img-fluid">
+      </div>
+
+      <div class="col-md-3">
+        <img src="gallery_3.jpg" class="img-fluid">
+      </div>
+
+      <div class="col-md-3">
+        <img src="gallery_4.jpg" class="img-fluid">
+      </div>
+
+    </div>
+  <div class="row mt-4">
+
+      <div class="col-md-3 mb-3">
+        <img src="gallery_5.jpg" class="img-fluid">
+      </div>
+
+      <div class="col-md-3">
+        <img src="gallery_6.jpg" class="img-fluid">
+      </div>
+
+      <div class="col-md-3">
+        <img src="gallery_7.jpg" class="img-fluid">
+      </div>
+
+      <div class="col-md-3">
+        <img src="gallery_8.jpg" class="img-fluid">
+      </div>
+
+    </div>
+
+  </div>  
+  <div class="container">
+  <div class="row">
+
+    <div class="col-md-3">
+       <img src="gallery_9.jpg" class="gallery-img">
+      </div>
+
+      <div class="col-md-3">
+        <img src="gallery_10.jpg" class="gallery-img">
+      </div>
+
+      <div class="col-md-3">
+        <img src="gallery_11.jpg" class="gallery-img">
+      </div>
+      <div class="col-md-3">
+        <img src="gallery_12.jpg" class="gallery-img">
+      </div>
+</div>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda recusandae soluta quis quibusdam dolorum autem omnis provident sit nulla doloribus, ratione minima quia cum atque. Ipsum aspernatur nemo ratione laborum debitis veritatis tenetur hic, beatae illo, qui cupiditate fugiat est assumenda, perferendis amet ea deleniti nobis. Consectetur quaerat consequatur sit modi, praesentium eius aliquam voluptatum in quidem vel libero laborum nostrum ducimus corporis explicabo enim dolor commodi nihil itaque deleniti similique adipisci. Quidem nihil necessitatibus placeat reprehenderit voluptatem culpa consectetur harum sint suscipit excepturi doloribus ex molestias dolorum unde recusandae minima, blanditiis incidunt iste totam, illo repellat corrupti et quam!</p>
+  <div class="text-center my-5" style="background-color:greenyellow; padding:40px;">
+  <h2 class="text-primary">Get In Touch</h2>
+  <p class="text-muted">We are here to help you with your travel plans</p>
+</div>
+    <section class="mt-5">
+  <div class="container">
+    <div class="row">
+
+      <!-- LEFT SIDE -->
+      <div class="col-md-6">
+ <div class="card mb-0"> 
+          <div class="card-body text-center bg-primary text-white p-4">
+            <h1 class="bi bi-envelope"></h1>
+            <h2>Contact For Booking</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <ul class="list-group">
+          <li class="list-group-item text-center"><h3>Location</h3></li>
+          <li class="list-group-item">Travel Yari PVT Ltd</li>
+          <li class="list-group-item">Jubilee Hills, Hyderabad</li>
+          <li class="list-group-item">Andhra Pradesh, Telangana</li>
+        </ul>
+
+      </div>
+
+      <div class="col-md-6">
+
+        <div class="card">
+          <div class="card-header bg-dark text-white text-center">
+            <h3>Contact Us</h3>
+          </div>
+
+          <div class="card-body">
+
+            <input type="text" placeholder="Name" class="form-control mb-3">
+            <input type="text" placeholder="Email" class="form-control mb-3">
+            <input type="text" placeholder="Mobile Number" class="form-control mb-3">
+            <input type="text" placeholder="Loved Destination" class="form-control mb-3">
+            <input type="text" placeholder="Your Destination" class="form-control mb-3">
+
+            <!-- BUTTON -->
+            <div class="text-center mt-3">
+              <button class="btn btn-primary">Submit</button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+</section>
+           <script src="jquery.js"></script>
+            <script src="popper.js"></script>
+            <script src="bootstrap.js"></script>
+              <script src="mdb.js"></script>
+           <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+           <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+
+       <script>
+$('.carousel').carousel({
+  interval:1000
+});
+</script>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis cum alias neque enim laudantium earum perferendis consectetur magnam. Molestiae fugiat iste dicta? Minima, sequi deserunt. Voluptatum recusandae laudantium, voluptatibus eveniet voluptatem quia tempore veniam nulla animi ad, itaque pariatur vitae? Adipisci magnam beatae eveniet est maxime exercitationem doloremque, cum, porro quisquam iure fuga odio reprehenderit nobis amet velit nulla aliquam laborum atque, inventore eos. Dolore, nihil officia? Aliquam modi quidem tenetur totam ipsa accusamus perferendis labore saepe nostrum ipsum. Obcaecati cupiditate neque soluta aspernatur eveniet magnam asperiores non, ducimus blanditiis dignissimos sit unde iusto, aut, incidunt eaque similique sequi. Quam.</p>
+                <div>
+                 <footer class="bg-primary text-white text-center p-4">
+  <h2>Copyright & Copy:2026 TravelYari</h2>
+  <p>All Rights Reserved</p>
+  <p>Developed By Vijay Babu.pocham</p>
+</footer>
+</body>
+</html>
